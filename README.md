@@ -39,6 +39,6 @@ If you are interested in using RASTFM in a commercial or large-scale operational
 
 Copyright and License
 ===================================================================================================================================================================
-Copyright (c) 2018–2025 Yongquan Zhao, yqzhao@niglas.ac.cn, Ningjing Institute of Geography and Limnology, Chinese Academy of Sciences (NIGLAS).
+Copyright (c) 2018–2025 Yongquan Zhao, yqzhao@niglas.ac.cn, Ningjing Institute of Geography and Limnology, Chinese Academy of Sciences (NIGLAS); Bo Huang, bohuang@hku.hk, The University of Hong Kong.
 
 This repository is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.
