@@ -31,9 +31,9 @@ Intellectual Property Statement
 ===================================================================================================================================================================
 This release includes essential components of the RASTFM algorithm to enable research reproducibility and non-commercial use. For IP protection:
 
-    1. Some modules are compiled as *.pcode and not publicly readable.
+1. Some modules are compiled as *.pcode and not publicly readable.
 
-    2. Redistribution or commercial use of this code or derived products requires explicit permission from the authors.
+2. Redistribution or commercial use of this code or derived products requires explicit permission from the authors.
 
 If you are interested in using RASTFM in a commercial or large-scale operational system, please contact the first or corresponding author.
 
