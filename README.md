@@ -25,7 +25,7 @@ Citation and References
 ===================================================================================================================================================================
 If you use this code or its results in your research, please cite the following papers:
 1. Zhao, Y., Huang, B., & Song, H. (2018). A robust adaptive spatial and temporal image fusion model for complex land surface changes. Remote sensing of environment, 208, 42-62. doi: 10.1016/j.rse.2018.02.009
-2. Zhao, Y., Liu, D., & Wei, X. (2020). Monitoring cyanobacterial harmful algal blooms at high spatiotemporal resolution by fusing Landsat and MODIS imagery. Environmental Advances, 2, 100008. 10.1016/j.envadv.2020.100008
+2. Zhao, Y., Liu, D., & Wei, X. (2020). Monitoring cyanobacterial harmful algal blooms at high spatiotemporal resolution by fusing Landsat and MODIS imagery. Environmental Advances, 2, 100008. doi: 10.1016/j.envadv.2020.100008
 
 Intellectual Property Statement
 ===================================================================================================================================================================
