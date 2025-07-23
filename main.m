@@ -2,7 +2,7 @@
 % Source code of the Robust and Adaptive Spatial-Temporal image Fusion Model (RASTFM) 
 % 
 % Code summary: this code package is for blending coarse-but-frequent (e.g., MODIS) 
-% and fine-but-sparse (e.g., Landsat) satellite images to generate fine-and-frequent images.
+% and fine-but-sparse (e.g., Landsat) satellite images to generate fine-and-frequent (Landsat-like) images.
 % 
 % Version 1.1: July 22, 2025.
 % 
@@ -14,15 +14,17 @@
 % 
 % 
 % Input requirements:
-% (1) The pixel value range of input surface reflectance images is 0 - 10000.
-% (2) The input images should have the same geographic coverage and projection (e.g., UTM). 
-% (3) The input images should be geometrically matched. 
-% (4) This code package is for spatial-temporal fusion, so the input images should have the same/similar bands.
-% (5) To support the spatial-temporal fusion between MODIS and Landsat. The input band names in the parameter "BandName" should be 
+% (1) The pixel value range of input images is 0 - 10000 (surface reflectance).
+% (2) This code package is for spatial-temporal fusion, so input images should have the equivalent spectral bands.
+% (3) Input images should have the same geographic coverage and projection (e.g., UTM).
+% (4) Coarse-resolution images (e.g., MODIS) should be resampled to match the size of fine-resolution images (e.g., Landsat).
+% (5) All input images should be geometrically matched.
+% (6) To support the spatial-temporal fusion between MODIS and Landsat. The input band names in the parameter "BandName" should be 
 %     less than or equal to the Landsat bands, i.e., {'Blue', 'Green', 'Red', 'NIR', 'SWIR1', 'SWIR2'}, to call the function IntraSharpen. 
-%     Moreover, The input band names must match the given name strings in "BandName" exactly.
-
-% Copyright (c): Yongquan Zhao, Ningjing Institute of Geography and Limnology, Chinese Academy of Sciences (NIGLAS), yqzhao@niglas.ac.cn.
+%     Moreover, the input band names must match the given name strings in "BandName" exactly.
+% 
+% Copyright (c) 2018–2025 Yongquan Zhao, yqzhao@niglas.ac.cn, Ningjing Institute of Geography and Limnology, Chinese Academy of Sciences (NIGLAS); Bo Huang, bohuang@hku.hk, The University of Hong Kong.
+% This code package is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
