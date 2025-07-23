@@ -11,7 +11,7 @@ Input Requirements
 ===================================================================================================================================================================
 (1) The pixel value range of input images is 0 - 10000 (surface reflectance).
 
-(2) This code package is for spatial-temporal fusion, so input images should have the same/similar bands.
+(2) This code package is for spatial-temporal fusion, so input images should have the equivalent spectral bands.
 
 (3) Input images should have the same geographic coverage and projection (e.g., UTM).
 
