@@ -1,5 +1,5 @@
 # RASTFM_MATLAB
-This repository provides a MATLAB implementation of RASTFM (Robust Adaptive Spatial and Temporal image Fusion Model) for downscaling complex land surface changes. 
+This repository provides a MATLAB implementation of RASTFM (Robust Adaptive Spatial and Temporal image Fusion Model) for downscaling complex land surface changes. It can also be downloaded through Zenodo at https://zenodo.org/records/16355114.
 
 Version 1.1: July 22, 2025.
 
